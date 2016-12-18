@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+head
+  meta(charset="utf-8")
+  title @aacn500/timestamper
+  meta(name="description", content="Timestamp Microservice for freeCodeCamp")
+  meta(name="author", content="Andrew Nowak")
+body
+  h2 Readme
+  p.
+    Enter a string in the url path. If it is a date (unix timestamp, or natural language date in the form %B %d, %Y, e.g. January 1, 2000), then a json object will be returned with properties "unix" and "natural". If the string is not a date, then the json object will contain "null" for both of those properties.
+  p Created by 
+    a(href="https://github.com/aacn500") @aacn500
+    | .

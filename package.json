@@ -1,0 +1,24 @@
+{
+  "name": "@aacn500/fcc-timestamp",
+  "version": "0.0.0",
+  "description": "Timestamp Microservice for freeCodeCamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aacn500/fcc-timestamp.git"
+  },
+  "author": "@aacn500",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aacn500/fcc-timestamp/issues"
+  },
+  "homepage": "https://github.com/aacn500/fcc-timestamp#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
