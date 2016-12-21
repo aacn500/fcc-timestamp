@@ -1,6 +1,6 @@
 {
   "name": "@aacn500/fcc-timestamp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Timestamp Microservice for freeCodeCamp",
   "main": "app.js",
   "scripts": {
