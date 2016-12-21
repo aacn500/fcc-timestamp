@@ -40,6 +40,12 @@ function sendDateResponse(response, theDate) {
   response.send(JSON.stringify(retObj));
 }
 
+// http://www.gnuterrypratchett.com/#nodejs
+app.use(function clacksOverhead(_, res, next) {
+  res.set('X-Clacks-Overhead', 'GNU Terry Pratchett');
+  next();
+});
+
 app.get(/^\/[\d]+$/, function unixTime(req, res) {
   let thispath = req.path;
   // slice to remove leading /
